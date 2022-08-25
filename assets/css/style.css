@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+img {
+    vertical-align: middle;
+}
+html, body{
+    margin: 0;
+    height: 100%;
+}
+:root {
+    --primary_color: #53d153;
+    --secondary_color: #5bc5f3;
+}
+main{
+    overflow: hidden;
+}
+/* common css end */
+
+/* navigation part start  */
+.navbar ul li a{
+    color: #fff !important;
+}
+.navigation-part{
+    background: url(../images/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 800px;
+}
+.navigation-part{
+    position: relative;
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 20px;
+    pointer-events: none;
+}
+.search-con input{
+    border-radius: 30px;
+    border: none;
+    background: rgba(255, 255, 255, .7);
+}
+/* navigation part end */
+
+.hero-con{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-con h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.work-btn{
+    background: var(--primary_color);
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 20px;
+    margin: 20px 0 100px;
+}
+.hero-con a{
+    background: rgba(255, 255, 255, .7);
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 14px;
+    bottom: 0;
+}
+/* hero part end  */
+
+/* what part start  */
+.what-we-do-part{
+    margin: 50px 0;
+    color: #828181;
+}
+.what-head h3{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.what-head p{
+    margin-top: 10px;
+}
+.line{
+    height: 2px;
+    width: 45px;
+    background: #000;
+}
+.what-con i{
+    font-size: 50px;
+    color: var(--primary_color);
+    background: #e0f3e0;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.what-con button{
+    background: var(--primary_color);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 14px;
+}
+.what-con h5{
+    font-weight: 700;
+}
+/* what part end */
+
+/* latest work part start  */
+.latest-work-part{
+    background: var(--primary_color);
+    padding: 50px;
+}
+.latest-head p{
+    color: #2b9b2b;
+}
+.latest-head h3{
+    color: #207b20;
+}
+.design{
+    padding: 5px 8px;
+    border-right: 2px solid var(--primary_color);
+    border-left: 2px solid var(--primary_color);
+    background: #fff;
+}
+.buttons a{
+    margin: 0;
+}
+.buttons a:hover{
+    background: #2b9b2b;
+    color: #fff;
+}
+.photo{
+    padding: 5px 8px;
+    background: #fff;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.print{
+    padding: 5px 8px;
+    background: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.view-more-btn{
+    background: #2b9b2b;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+.view-more-btn i{
+    margin: 5px;
+}
+/* latest work part end */
+
+/* testimonials part start  */
+.testi-part{
+    margin: 50px 0;
+}
+.testi-head p{
+    color: #b7b3b3;
+}
+.testi-head h3{
+    color: #828181;
+}
+.name-desig p{
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+.name-desig p:nth-child(2){
+    color: #b7b3b3;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+/* testimonials part end */
+
+/* client part start  */
+.client-part{
+    padding: 50px 0;
+    background: #f2f1f1;
+    border-top: 1px solid #cfcece;
+}
+.client-btn{
+    background: #dddcdc;
+    color: #a59d9d;
+    margin-top: 50px;
+    font-size: 16px;
+}
+/* client part end */
+
+/* team part start  */
+.team-part{
+    background: var(--primary_color);
+    padding-top: 50px;
+}
+.team-con h6{
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 5px;
+}
+.team-icons li a i{
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    background: #00abed;
+    border-radius: 50%;
+    font-size: 14px;
+    margin: 0 3px;
+    color: #fff;
+}
+.team-icons ul{
+    background: #c5e9c5;
+    padding: 3px 8px;
+    border-radius: 30px;
+}
+.work-btn-area{
+    background: #3eba3e;
+    padding: 25px 0;
+    margin-top: 50px;
+}
+.team-btn{
+    background: var(--primary_color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* team part end */
+
+/* contact part start  */
+.contact-part{
+    color: #cccccc;
+    background: #333333;
+}
+.con-head h3{
+    font-size: 20px;
+}
+.con-line{
+    height: 2px;
+    width: 25px;
+    background: #cccccc;
+}
+.contact-con p{
+    font-size: 14px;
+}
+.posts-con img{
+    width: 15%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.posts-con a{
+    color: #fff;
+    padding: 3px 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.mag{
+    background: var(--primary_color);
+}
+.ui{
+    background: #ffba00;
+}
+.photography{
+    background: #089cea;
+}
+.book{
+    background: #f34c03;
+}
+.address li{
+    font-size: 14px;
+}
+.input-field{
+    background: #444;
+    border: none;
+    margin: 3px 0;
+}
+.con-input textarea{
+    background: #444;
+    border: none;
+    margin: 3px 0;
+}
+.send-btn{
+    background: #2b9b2b;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+/* contact part end */
+
+/* spons part start  */
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: #212121;
+    padding: 50px 0;
+}
+/* spons part end */
+
+/* footer part start  */
+footer{
+    padding: 10px 0;
+    background: #111111;
+}
+footer p{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+}
+/* footer part end */
